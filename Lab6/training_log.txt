@@ -1,0 +1,15 @@
+Epoch, Train Loss, Val Loss, PPL, Time, LR_Enc, LR_Dec
+Epoch 1/15 | Train: 6.0502 | Val: 4.2282 | PPL: 68.59 | ROUGE-L: 0.0000 | Time: 12m 7s | Enc_LR: 1.98e-04 | Dec_LR: 1.98e-04
+*** New Best PPL: 68.59 at Epoch 1 ***
+Epoch 2/15 | Train: 4.8199 | Val: 3.8079 | PPL: 45.06 | ROUGE-L: 0.0000 | Time: 12m 10s | Enc_LR: 1.93e-04 | Dec_LR: 1.93e-04
+*** New Best PPL: 45.06 at Epoch 2 ***
+Epoch 3/15 | Train: 4.3868 | Val: 3.6635 | PPL: 39.00 | ROUGE-L: 0.0000 | Time: 12m 9s | Enc_LR: 1.83e-04 | Dec_LR: 1.83e-04
+*** New Best PPL: 39.00 at Epoch 3 ***
+Epoch 4/15 | Train: 4.0464 | Val: 3.6339 | PPL: 37.86 | ROUGE-L: 0.0000 | Time: 12m 10s | Enc_LR: 1.69e-04 | Dec_LR: 1.69e-04
+*** New Best PPL: 37.86 at Epoch 4 ***
+Epoch 5/15 | Train: 3.7361 | Val: 3.6688 | PPL: 39.21 | ROUGE-L: 0.0000 | Time: 12m 10s | Enc_LR: 1.52e-04 | Dec_LR: 1.52e-04
+
+
+
+UNFREEZE 10
+
