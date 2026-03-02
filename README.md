@@ -1,8 +1,8 @@
-# Deep Learning Homework (Lab3-7)
+# Deep Learning Labs (Lab3-7)
 
-課程作業紀錄 - 深度學習各項應用實踐
+NYCU AI College Deep Learning Course - Labs 3 through 7
 
-## 📁 資料夾結構
+## Folder Structure
 
 ```
 DL/
@@ -14,74 +14,79 @@ DL/
 └── data/      Datasets
 ```
 
-## 📝 作業說明
+## Competition Rankings
 
-### Lab3: Semi-Supervised Flower Classification
-- **主題**: 半監督學習 (Self-Training)
-- **模型**: ResNet18 (從零實作)
-- **資料集**: Flowers Recognition Dataset (5 classes, ~4262 images)
-- **方法**: 監督學習 + 自訓練 (Pseudo-labeling)
-- **作業檔案**: [HW3_314831024.ipynb](Lab3/HW3_314831024.ipynb)
-- **Kaggle**: https://www.kaggle.com/competitions/lab-3-flower-classification/overview
+| Lab | Topic | Rank | Kaggle Link |
+|-----|-------|------|-------------|
+| Lab3 | Flower Classification | 2/32 | [Competition](https://www.kaggle.com/competitions/lab-3-flower-classification/overview) |
+| Lab4 | Semantic Segmentation on BCSS | 6/32 | [Competition](https://www.kaggle.com/competitions/lab-4-semantic-segmentation-on-bcss-639003) |
+| Lab5 | Object Detection on Pascal VOC | 3/32 | [Competition](https://www.kaggle.com/competitions/lab-5-object-detection-on-pascal-voc-639003) |
+| Lab6 | Text Summarization with Seq2Seq Model | 7/38 | [Competition](https://www.kaggle.com/competitions/lab-6-training-a-seq-2-seq-model-on-s-qu-ad-639003) |
+| Lab7 | Image Generation | 15/32 | [Competition](https://www.kaggle.com/competitions/lab-7-deep-generative-image-synthesis-639003) |
+
+## Lab Descriptions
+
+### Lab3: Flower Classification
+- **Topic**: Semi-Supervised Learning (Self-Training)
+- **Model**: ResNet18 (implemented from scratch)
+- **Dataset**: Flowers Recognition Dataset (5 classes, ~4262 images)
+- **Method**: Supervised Learning + Self-Training (Pseudo-labeling)
+- **Notebook**: [HW3_314831024.ipynb](Lab3/HW3_314831024.ipynb)
 
 ### Lab4: Semantic Segmentation on BCSS
-- **主題**: 語義分割 (Semantic Segmentation)
-- **模型**: 分割網路架構實作
-- **資料集**: BCSS (Building Change Semantic Segmentation)
-- **作業檔案**: [HW4_314831024.ipynb](Lab4/HW4_314831024.ipynb)
-- **Kaggle**: https://www.kaggle.com/competitions/lab-4-semantic-segmentation-on-bcss-639003
+- **Topic**: Semantic Segmentation
+- **Model**: Segmentation Network Architecture
+- **Dataset**: BCSS (Building Change Semantic Segmentation)
+- **Notebook**: [HW4_314831024.ipynb](Lab4/HW4_314831024.ipynb)
 
-### Lab5: Object Detection on PASCAL VOC
-- **主題**: 物體偵測 (Object Detection)
-- **模型**: YOLO / 自訓練檢測網路
-- **資料集**: PASCAL VOC Dataset
-- **作業檔案**: [v3_mixup_CONVNEXT_large_multiscale_last.ipynb](Lab5/v3_mixup_CONVNEXT_large_multiscale_last.ipynb)
-- **Kaggle**: https://www.kaggle.com/competitions/lab-5-object-detection-on-pascal-voc-639003
+### Lab5: Object Detection on Pascal VOC
+- **Topic**: Object Detection
+- **Model**: YOLO / Custom Detection Network
+- **Dataset**: PASCAL VOC Dataset
+- **Notebook**: [v3_mixup_CONVNEXT_large_multiscale_last.ipynb](Lab5/v3_mixup_CONVNEXT_large_multiscale_last.ipynb)
 
-### Lab6: Seq2Seq Model on SQuAD
-- **主題**: 序列到序列模型 (Sequence-to-Sequence)
-- **模型**: Transformer / 注意力機制
-- **資料集**: SQuAD (Stanford Question Answering Dataset)
-- **作業檔案**: [LAB6.ipynb](Lab6/LAB6.ipynb)
-- **Kaggle**: https://www.kaggle.com/competitions/lab-6-training-a-seq-2-seq-model-on-s-qu-ad-639003
+### Lab6: Text Summarization with Seq2Seq Model
+- **Topic**: Sequence-to-Sequence Model
+- **Model**: Transformer / Attention Mechanism
+- **Dataset**: SQuAD (Stanford Question Answering Dataset)
+- **Notebook**: [LAB6.ipynb](Lab6/LAB6.ipynb)
 
-### Lab7: Deep Generative Image Synthesis
-- **主題**: 深度生成模型 (GAN / VAE)
-- **模型**: 生成對抗網路 / 變分自編碼器
-- **資料集**: Flowers 102 Dataset
-- **作業檔案**: [Lab7_314831024.ipynb](Lab7/Lab7_314831024.ipynb)
-- **Kaggle**: https://www.kaggle.com/competitions/lab-7-deep-generative-image-synthesis-639003
+### Lab7: Image Generation
+- **Topic**: Deep Generative Models (GAN / VAE)
+- **Model**: Generative Adversarial Networks / Variational Autoencoder
+- **Dataset**: Flowers 102 Dataset
+- **Notebook**: [Lab7_314831024.ipynb](Lab7/Lab7_314831024.ipynb)
 
-## 📥 資料集說明
+## Dataset Information
 
-各個 Lab 所需的資料集通常需要自行從 Kaggle 競賽頁面下載：
+Datasets for each lab need to be downloaded from the respective Kaggle competition pages:
 
-1. **Lab3**: 在 Lab3 Kaggle 頁面下載，放入 `Lab3/Lab3_data_flower_2025/`
-2. **Lab4**: 在 Lab4 Kaggle 頁面下載 BCSS 資料集
-3. **Lab5**: 在 Lab5 Kaggle 頁面下載 PASCAL VOC 資料集
-4. **Lab6**: 在 Lab6 Kaggle 頁面下載 SQuAD 資料集
-5. **Lab7**: 在 Lab7 Kaggle 頁面下載花朵資料集
+1. **Lab3**: Download from Lab3 Kaggle page, place in `Lab3/Lab3_data_flower_2025/`
+2. **Lab4**: Download BCSS dataset from Lab4 Kaggle page
+3. **Lab5**: Download PASCAL VOC dataset from Lab5 Kaggle page
+4. **Lab6**: Download SQuAD dataset from Lab6 Kaggle page
+5. **Lab7**: Download Flowers dataset from Lab7 Kaggle page
 
 
-## 📊 作業提交
+## Submission
 
-所有作業都在對應的 Kaggle 競賽中提交。詳細步驟請參考各 Lab 的 notebook 說明。
+All assignments are submitted to the corresponding Kaggle competitions. Please refer to each lab's notebook for detailed instructions.
 
-## 📚 主要技術
+## Key Technologies
 
-- **深度學習框架**: PyTorch
-- **模型架構**: CNN (ResNet, ConvNeXt), Transformer, GAN, VAE
-- **訓練技巧**: 
-  - 數據增強 (Data Augmentation)
-  - 混合訓練 (Mixup, CutMix)
-  - 學習率調度 (Learning Rate Scheduling)
-  - 自訓練 (Self-Training for Semi-Supervised Learning)
+- **Deep Learning Framework**: PyTorch
+- **Model Architectures**: CNN (ResNet, ConvNeXt), Transformer, GAN, VAE
+- **Training Techniques**: 
+  - Data Augmentation
+  - Mixup, CutMix
+  - Learning Rate Scheduling
+  - Self-Training for Semi-Supervised Learning
 
-## 👤 學生資訊
+## Student Information
 
-- **學號**: 314831024
-- **姓名**: 李朋逸
+- **Student ID**: 314831024
+- **Name**: Penyi Lee
 
 ---
 
-**最後更新**: 2026年2月27日
+**Last Updated**: February 27, 2026
