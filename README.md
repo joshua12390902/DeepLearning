@@ -18,7 +18,7 @@ DL/
 
 | Lab | Topic | Rank | Kaggle Link |
 |-----|-------|------|-------------|
-| Lab3 | Flower Classification | 2/32 | [Competition](https://www.kaggle.com/competitions/lab-3-flower-classification/overview) |
+| Lab3 | Flower Classification | 1/32 | [Competition](https://www.kaggle.com/competitions/lab-3-flower-classification/overview) |
 | Lab4 | Semantic Segmentation on BCSS | 6/32 | [Competition](https://www.kaggle.com/competitions/lab-4-semantic-segmentation-on-bcss-639003) |
 | Lab5 | Object Detection on Pascal VOC | 3/32 | [Competition](https://www.kaggle.com/competitions/lab-5-object-detection-on-pascal-voc-639003) |
 | Lab6 | Text Summarization with Seq2Seq Model | 7/38 | [Competition](https://www.kaggle.com/competitions/lab-6-training-a-seq-2-seq-model-on-s-qu-ad-639003) |
