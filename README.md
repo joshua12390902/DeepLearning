@@ -28,15 +28,15 @@ DL/
 
 ### Lab3: Flower Classification
 - **Topic**: Semi-Supervised Learning (Self-Training)
-- **Model**: ResNet18 (implemented from scratch)
+- **Model**: ResNet-34 (implemented from scratch)
 - **Dataset**: Flowers Recognition Dataset (5 classes, ~4262 images)
 - **Method**: Supervised Learning + Self-Training (Pseudo-labeling)
-- **Notebook**: [HW3_314831024.ipynb](Lab3/HW3_314831024.ipynb)
+- **Notebook**: [93223.ipynb](Lab3/93223.ipynb)
 
 ### Lab4: Semantic Segmentation on BCSS
 - **Topic**: Semantic Segmentation
 - **Model**: Segmentation Network Architecture
-- **Dataset**: BCSS (Building Change Semantic Segmentation)
+- **Dataset**: BCSS (Breast Cancer Semantic Segmentation)
 - **Notebook**: [HW4_314831024.ipynb](Lab4/HW4_314831024.ipynb)
 
 ### Lab5: Object Detection on Pascal VOC
